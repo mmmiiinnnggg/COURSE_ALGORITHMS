@@ -1,6 +1,6 @@
 # COURSE "ALGORITHMS"
 Two assignments: 
-* The task of Arbitration (Bellman-Ford algorithm)
+* **The task of Arbitration (Bellman-Ford algorithm)**
 
   Given table of exchange rates of currencies : for one unit of currency $c_i$, you can buy $R[i,j]$ units of currency $c_j$
   
@@ -17,7 +17,7 @@ Two assignments:
   - The task is to find the max-value of exchange rates product when exchanging through c_i -> c_i1 -> c_i2 -> ... -> c_ik -> c_i for all currency i with no small exchange cycles.
   - Implemented the Bellman-Ford algorithm to find the negative cycle in the graph
   
-* Find the center city of Russia (convex-hull construction)
+* **Find the center city of Russia (convex-hull construction)**
   
   - Given the geographcial coordinates of main cities in Russia. (see `citys.csv`)
   - The task is to find the median city.
